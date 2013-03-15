@@ -2,7 +2,7 @@
 
 These are the ruby generators of the tessellations that appeared in
 in the book SVG Tessellation. It is easy to run these on the 
-(cloud 9 ide)[https://c9.io]. Just run
+[cloud 9 ide](https://c9.io). Just run
 
     bundle install
     
@@ -13,7 +13,7 @@ ruby file
     
 which will produce a 'output.html' file.  There is not currently a gem
 or cli options, these files just match the code in the book using a
-sparse number of ruby features. Expect a better api soon.
+sparse number of ruby features. Expecgt a better api soon.
 
 
 ### jruby
