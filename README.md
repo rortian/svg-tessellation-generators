@@ -1,18 +1,23 @@
-# README for a newly created project.
+# SVG Tessellation Generators
 
-There are a couple of things you should do first, before you can use all of Git's power:
+These are the ruby generators of the tessellations that appeared in
+in the book SVG Tessellation. It is easy to run these on the 
+(cloud 9 ide)[https://c9.io]. Just run
 
-  * Add a remote to this project: in the Cloud9 IDE command line, you can execute the following commands
-    `git remote add [remote name] [remote url (eg. 'git@github.com:/ajaxorg/node_chat')]` [Enter]
-  * Create new files inside your project
-  * Add them to to Git by executing the following command
-    `git add [file1, file2, file3, ...]` [Enter]
-  * Create a commit which can be pushed to the remote you just added
-    `git commit -m 'added new files'` [Enter]
-  * Push the commit the remote
-    `git push [remote name] master` [Enter]
+    bundle install
+    
+and then you can generate a tessellation by running its corresponding
+ruby file
 
-That's it! If this doesn't work for you, please visit the excellent resources from [Github.com](http://help.github.com) and the [Pro Git](http://http://progit.org/book/) book.
-If you can't find your answers there, feel free to ask us via Twitter (@cloud9ide), [mailing list](groups.google.com/group/cloud9-ide) or IRC (#cloud9ide on freenode).
+    ./p6m.rb
+    
+which will produce a 'output.html' file.  There is not currently a gem
+or cli options, these files just match the code in the book using a
+sparse number of ruby features. Expect a better api soon.
 
-Happy coding!
+
+### jruby
+
+Should be resolved soon but these do not run under jruby's native
+(Xerces) nokogiri. The gem version of this library will centainly 
+support jruby. 
