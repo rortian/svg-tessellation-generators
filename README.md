@@ -1,7 +1,7 @@
 # SVG Tessellation Generators
 
 These are the ruby generators of the tessellations that appeared in
-in the book SVG Tessellation. It is easy to run these on the 
+in the book [SVG Tessellation](http://svg.pseudopattern.com). It is easy to run these on the 
 [cloud 9 ide](https://c9.io). Just run
 
     bundle install
