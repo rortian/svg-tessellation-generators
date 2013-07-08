@@ -27,8 +27,8 @@ html = Nokogiri::XML::Builder.new do
         end
         x1, y1 = 240,0
         x2, y2 =  0,160
-        ((0)..15).each do |m|
-          ((0)..30).each do |n|
+        ((0)..2).each do |m|
+          ((0)..2).each do |n|
             x_delta = m*x1 + n*x2
             y_delta = m*y1 + n*y2
             use :"xlink:href" => "#tile",:transform => "translate(#{x_delta},#{y_delta})"
